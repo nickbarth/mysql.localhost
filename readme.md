@@ -39,6 +39,8 @@ docker-compose stop database
 docker-compose rm database
 ```
 
+![Web Scale](http://i.imgur.com/uQDttq2.jpg)
+
 ### License
 The CC0 License
 
