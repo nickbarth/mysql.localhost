@@ -1,0 +1,6 @@
+database:
+  image: mysql/mysql-server:latest
+  environment:
+    MYSQL_DATABASE: example
+    MYSQL_ROOT_PASSWORD: secretpw
+    MYSQL_ALLOW_EMPTY_PASSWORD: no
