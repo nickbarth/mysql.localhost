@@ -3,6 +3,7 @@
 Some days you just want to create and destroy a bunch of MySQL Servers.
 
 https://docs.docker.com/compose/
+
 https://registry.hub.docker.com/u/mysql/mysql-server/
 
 ```terminal
