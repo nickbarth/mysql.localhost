@@ -14,8 +14,7 @@ git clone --depth 1 https://github.com/nickbarth/mysql.localhost && cd mysql.loc
 docker-compose up database -d
 docker-compose ps database
 
-# Fun Commands
-
+# Web Scale
 docker-compose scale database=5
 docker-compose ps -q database | parallel docker exec -t {} mysql --version
 
