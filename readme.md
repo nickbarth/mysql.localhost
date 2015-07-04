@@ -1,4 +1,4 @@
-# Setup MySQL Server Dockers
+# MySQL Docker Server Setup Notes
 
 Some days you just want to create and destroy a bunch of MySQL Servers.
 
