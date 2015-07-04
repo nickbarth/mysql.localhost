@@ -9,7 +9,7 @@ https://registry.hub.docker.com/u/mysql/mysql-server/
 ```terminal
 # Uses mysql/mysql-server:latest
 
-git clone --recursive --depth 1 https://github.com/nickbarth/mysql.localhost mysql
+git clone --depth 1 https://github.com/nickbarth/mysql.localhost && cd mysql.localhost
 
 docker-compose up database -d
 docker-compose ps database
