@@ -38,7 +38,16 @@ sed -i 's/\(DEFAULT_FORWARD_POLICY=\)"DROP"/\1"ACCEPT"/' /etc/default/ufw
 wget https://www.phpmyadmin.net/downloads/
 
 # config.inc.php
-/* Authentication type */                                                                                             $cfg['Servers'][$i]['auth_type'] = 'cookie';                                                                          /* Server parameters */                                                                                               $cfg['Servers'][$i]['host'] = '127.0.0.1';                                                                            $cfg['Servers'][$i]['connect_type'] = 'tcp';                                                                          $cfg['Servers'][$i]['user'] = 'root';                                                                                 $cfg['Servers'][$i]['password'] = 'secret';                                                                           $cfg['Servers'][$i]['compress'] = false;                                                                              $cfg['Servers'][$i]['AllowNoPassword'] = false; 
+
+/* Authentication type */
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+/* Server parameters */
+$cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = 'secretpw';
+$cfg['Servers'][$i]['compress'] = false;
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
 
 php -S localhost:5001
 
